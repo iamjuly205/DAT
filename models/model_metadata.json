@@ -1,0 +1,41 @@
+{
+  "model": "VGG16-PyTorch",
+  "class_names": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v",
+    "vi",
+    "vii",
+    "viii",
+    "ix",
+    "x"
+  ],
+  "image_size": [
+    160,
+    160
+  ],
+  "num_classes": 10,
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "best_val_accuracy": 0.9129411764705883,
+  "test_accuracy": 0.9423076923076923,
+  "test_balanced_accuracy": 0.9433333333333334,
+  "test_macro_f1": 0.9428127428127429,
+  "test_ece": 0.06788862897799566,
+  "train_size": 2403,
+  "val_size": 425,
+  "test_size": 52,
+  "augmentation": "rotation/zoom/translation/contrast/brightness only; NO flips"
+}
